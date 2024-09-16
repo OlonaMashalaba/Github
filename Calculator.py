@@ -2,7 +2,7 @@ import math
 
 # Function to calculate the future value of an investment based on interest type
 def investment_calculator():
-   
+> main
     # Input: Get the deposit amount, interest rate, and number of years from the user
     deposit = float(input("Enter the amount of money you are depositing: "))
     rate = float(input("Enter the interest rate (as a percentage): "))
@@ -32,7 +32,7 @@ def investment_calculator():
 
 # Function to calculate monthly bond repayments (mortgage)
 def bond_calculator():
-   
+
 
     # Input: Get the present value of the house, interest rate, and repayment period (in months)
     present_value = float(input("Enter the present value of the house: "))
@@ -54,6 +54,7 @@ def bond_calculator():
 
 # Main function to drive the financial calculator
 def main():
+
     
     # Display the menu to the user
     print("Welcome to the financial calculator!")
