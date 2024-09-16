@@ -2,6 +2,12 @@ import math
 
 # Function to calculate investment
 def investment_calculator():
+    """
+    This function calculates the total amount after a given number of years
+    based on an initial deposit, interest rate, and the type of interest (simple or compound).
+    The user is prompted for the necessary inputs, and the function will output the total amount
+    at the end of the investment period.
+    """
     # Input deposit amount, interest rate, and years
     deposit = float(input("Enter the amount of money you are depositing: "))
     rate = float(input("Enter the interest rate (as a percentage): "))
@@ -27,6 +33,12 @@ def investment_calculator():
 
 # Function to calculate bond repayment
 def bond_calculator():
+    """
+    This function calculates the monthly repayment on a bond (home loan).
+    The user is asked for the present value of the house, the interest rate,
+    and the number of months for repayment. The function outputs the monthly
+    repayment amount based on this information.
+    """
     # Input present value, interest rate, and months
     present_value = float(input("Enter the present value of the house: "))
     rate = float(input("Enter the interest rate (as a percentage): "))
@@ -44,6 +56,11 @@ def bond_calculator():
 
 # Main function
 def main():
+    """
+    This is the main function of the financial calculator.
+    It presents the user with a menu to choose between calculating investment returns
+    or bond repayments, and then calls the corresponding function based on the user's choice.
+    """
     # Display menu
     print("Welcome to the financial calculator!")
     print("Menu:")
